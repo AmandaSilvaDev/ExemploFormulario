@@ -73,3 +73,31 @@ legend{
     background-image: linear-gradient(to right, rgb(0, 80, 172), rgb(80,19,195));
 
 }
+.navebar{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 15px;
+    width: 23%;
+}
+.navebar div ul{
+    list-style: none;
+    display: contents;
+    text-align: center;
+}
+
+.navebar div ul li a{
+    text-decoration: none;
+    
+}
+.navebar div ul li a:hover{
+    color: aliceblue;
+    font-size: 20px;
+    padding: 25px;
+    transition: 0.3s;
+    
+}
